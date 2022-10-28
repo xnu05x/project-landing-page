@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    background-color:#f9faf8;
+}
+
+.upper{
+    display: flex;
+    background-color: #1F2937;
+    color:#f9faf8 ;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width:70% ;
+    
+}
+
+.nav-bar{
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center; /*-- aligns the menu links vertically middle of the header width */
+
+}
+
+.nav-bar>a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+.herobar{
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+
+}
+
+.middle{
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 80px;
+}
+
+.textholder-1{
+    display: block;
+    width: 50%;
+    color: white;
+    
+}
+
+.title{
+    font-size: 48px;   
+    width: 100%;
+    margin-bottom:-20px;
+    margin-top: -10px;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 100%;
+
+}
+
+
+.imageholder{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
+}
+
+
+.row3{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.row4{
+    display: flex;
+    /*border: 1px solid purple;*/
+    width: 100%;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*background-color: rgb(192, 255, 206);*/
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+
+.textholder1,
+.textholder2,
+.textholder3,
+.textholder4{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.imageholder1,
+.imageholder2,
+.imageholder3,
+.imageholder4{
+    text-align: center;
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4{
+   
+    padding: 50px;
+}
+
+
+.button {
+    background-color: #3882F6;
+    border-radius: 9%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
