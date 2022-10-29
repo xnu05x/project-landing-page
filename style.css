@@ -81,9 +81,12 @@ body{
 
 .imageholder{
     display: flex;
-    width: 50%;
+    width: auto%;
     justify-content: right;
+}
 
+.imageholder>img{
+  width: fit-content;
 }
 
 
